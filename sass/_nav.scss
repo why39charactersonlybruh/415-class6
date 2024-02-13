@@ -1,0 +1,24 @@
+/* Nav styles */
+header {
+     background-color: $color__grey;
+     display: flex;
+     nav {
+          margin-left: auto;
+     }
+     .menu {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          .menu-link {
+               color: white;
+               padding: 1em;
+               display: block;
+               text-decoration:none;
+               font-family: $font__heading;
+               &:hover {
+                    background-color: darken($color__grey, 10%); 
+               }
+          }
+     }
+}
