@@ -17,7 +17,7 @@ header {
                text-decoration:none;
                font-family: $font__heading;
                &:hover {
-                    background-color: darken($color__grey, 10%); 
+                    background-color: darken($color__block, 10%); 
                }
           }
      }
